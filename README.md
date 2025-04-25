@@ -1,7 +1,11 @@
 # ELEVATE-LABS-INTERNSHIP-TASK-2
+
 📊 Task 2: Exploratory Data Analysis (EDA)
+
 🎯 Objective:
+
 Gain a deeper understanding of the dataset through descriptive statistics and visual exploration.
+
 
 🛠️ Tools Used:
 Pandas, Matplotlib, Seaborn, Plotly
@@ -19,8 +23,13 @@ Pandas, Matplotlib, Seaborn, Plotly
 
 
 🧠 Key Findings: Patterns, Trends, and Anomalies
+
 ➤ Skewed distributions were noted in several features (e.g., chol, fbs), indicating possible need for normalization or transformation
+
 ➤ Outliers were visible in boxplots, especially for trestbps (resting blood pressure) and chol (serum cholesterol)
+
 ➤ High correlations observed between some features in the heatmap (e.g., cp and target, thalach and age)
+
 ➤ Certain variables showed distinct separation or grouping, which could aid in classification (e.g., chest pain type, thalassemia)
+
 
