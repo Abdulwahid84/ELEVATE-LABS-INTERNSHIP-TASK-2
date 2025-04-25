@@ -7,22 +7,15 @@ Gain a deeper understanding of the dataset through descriptive statistics and vi
 Pandas, Matplotlib, Seaborn, Plotly
 
 🔍 Features Explored
-Generated summary statistics including mean, median, standard deviation, and range for all numeric features.
-
-Created histograms and boxplots to examine the distribution and spread of numeric variables.
-
-Visualized feature relationships using pairplots and a correlation matrix heatmap.
-
-Identified patterns, trends, and anomalies within the data using visual cues.
-
-Made feature-level inferences to support further analysis and modeling.
+➤ Generated summary statistics (mean, median, std, min, max) for all numeric features
+➤ Created histograms to examine the distribution of individual variables
+➤ Used boxplots to identify spread, central tendency, and outliers
+➤ Plotted pairplots and correlation matrix to explore relationships between features
+➤ Extracted initial insights and feature-level observations from visual patterns
 
 🧠 Key Findings: Patterns, Trends, and Anomalies
-Skewed distributions observed in several numeric features, indicating the need for transformation (e.g., cholesterol, fasting blood sugar).
-
-Outliers detected through boxplots in variables such as resting blood pressure and cholesterol levels.
-
-Strong correlations found between features like thalach (maximum heart rate) and age, as well as between cp (chest pain type) and the target variable.
-
-Certain features show distinct clusters or separation, indicating their potential importance in classification models.
+➤ Skewed distributions were noted in several features (e.g., chol, fbs), indicating possible need for normalization or transformation
+➤ Outliers were visible in boxplots, especially for trestbps (resting blood pressure) and chol (serum cholesterol)
+➤ High correlations observed between some features in the heatmap (e.g., cp and target, thalach and age)
+➤ Certain variables showed distinct separation or grouping, which could aid in classification (e.g., chest pain type, thalassemia)
 
