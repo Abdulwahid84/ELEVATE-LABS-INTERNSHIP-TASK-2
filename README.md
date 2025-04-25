@@ -8,10 +8,15 @@ Pandas, Matplotlib, Seaborn, Plotly
 
 🔍 Features Explored
 ➤ Generated summary statistics (mean, median, std, min, max) for all numeric features
+
 ➤ Created histograms to examine the distribution of individual variables
+
 ➤ Used boxplots to identify spread, central tendency, and outliers
+
 ➤ Plotted pairplots and correlation matrix to explore relationships between features
+
 ➤ Extracted initial insights and feature-level observations from visual patterns
+
 
 🧠 Key Findings: Patterns, Trends, and Anomalies
 ➤ Skewed distributions were noted in several features (e.g., chol, fbs), indicating possible need for normalization or transformation
